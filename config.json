@@ -1,9 +1,9 @@
 {
     "server jar": "server.jar",
-    "startup message": "Minecraft Server",
+    "startup message": "",
     "java options": [
-        "-Xmx6G",
-        "-Xms6G",
+        "-Xmx4096M",
+        "-Xms1024M",
 
         "-XX:+UseG1GC",
         "-XX:+ParallelRefProcEnabled",
@@ -25,7 +25,6 @@
         "-XX:MaxTenuringThreshold=1",
         "-Dusing.aikars.flags=https://mcflags.emc.gs",
         "-Daikars.new.flags=true"
-        
     ],
     "gui": false,
     "backups": [

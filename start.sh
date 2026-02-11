@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 if [ -n "$( cat ./config.json | jq -r '."startup message"' )" ] ; then
      cat ./config.json | jq -r '."startup message"' | figlet -c
