@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Parameters
 if [ "$1" == "--verbose" ] || [ "$1" == "-v" ] ; then
